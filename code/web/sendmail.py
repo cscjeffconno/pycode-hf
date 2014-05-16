@@ -1,6 +1,7 @@
 __author__ = 'python robot'
 
 # Import smtplib for the actual sending function
+#a mail program send its own code
 import smtplib
 
 # Import the email modules we'll need
@@ -15,6 +16,7 @@ msg = MIMEText(txtmsg)
 
 # me == the sender's email address
 # you == the recipient's email address
+#
 msg['Subject'] = 'greetings from python robot, it is not a jun mail.'
 msg['From'] = 'sancheng@cisco.com'
 msg['To'] = 'newtech-hf-lang'
