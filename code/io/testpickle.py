@@ -13,6 +13,7 @@ import cStringIO
 
 
 #print 'format1:%s, format2:%d' % ('string',11)
+#test mail notification
 class Car:
     def __init__(self):
         self.brand = 'ford'
